@@ -1,0 +1,32 @@
+<package format="2">
+  <name>pytouchosc</name>
+  <version>1.0.0</version>
+  <description>PyTouchOSC is a Python module for interacting with *.touchosc layout files.  It
+      provides a set of utilities for parsing tabpages and controls out of files created
+      with the TouchOSC Editor application.
+
+      Also included is a node for hosting layout files and transferring them to iOS devices.</description>
+  <maintainer email="michael@openrobotics.org">Michael Carroll</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/pytouchosc</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Michael Carroll</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <depend>rospy</depend>
+  <depend>rosunit</depend>
+  <depend>rostest</depend>
+  <depend>pybounjour</depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>rosunit</test_depend> -->
+  <!-- <test_depend>rostest</test_depend> -->
+
+</package>

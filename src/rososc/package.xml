@@ -1,0 +1,38 @@
+<package>
+  <name>rososc</name>
+  <version>1.0.0</version>
+  <description>ROS OSC is a collection of nodes and utilities for interacting with Open Sound Control hardware and software devices.  It consists of a general ROS-OSC bridge, as well as nodes for interacting with the TouchOSC iPhone, iPad, and Android application.</description>
+  <maintainer email="michael@openrobotics.org">Maintained by Michael Carroll</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rososc</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Maintained by Michael Carroll</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>diagnostics_handler</run_depend>
+  <run_depend>pytouchosc</run_depend>
+  <run_depend>osc_bridge</run_depend>
+  <run_depend>touchosc_bridge</run_depend>
+  <run_depend>teleop_handler</run_depend>
+  <run_depend>touchosc_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+ <export>
+   <metapackage />
+ </export>
+
+
+
+
+
+</package>

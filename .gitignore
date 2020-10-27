@@ -1,4 +1,4 @@
-build
+build/
 bin
 lib
 *.pyc
@@ -7,3 +7,5 @@ msg_gen
 .project
 .pydevproject
 cmake_install.cmake
+
+devel/

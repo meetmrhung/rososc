@@ -19,9 +19,4 @@ Installation Notes:
 
 On Ubuntu
 
-    sudo apt-get install python-pip
-    rosmake --rosdep-install rososc
-    
-On Mac, if you followed the homebrew guide, pip is already installed:
-
-    rosmake --rosdep-install rososc
+    catkin_make

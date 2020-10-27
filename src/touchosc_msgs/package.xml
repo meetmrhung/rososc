@@ -1,0 +1,27 @@
+<package format="2">
+  <name>touchosc_msgs</name>
+  <version>1.0.0</version>
+  <description>Package containing messages Published and Subscribed to by the default tabpage
+      handler in touchosc_bridge.</description>
+  <maintainer email="michael@openrobotics.org">Michael Carroll</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/touchosc_msgs</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Michael Carroll</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+  <!-- Dependencies needed after this package is compiled. -->
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>

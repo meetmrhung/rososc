@@ -1,0 +1,13 @@
+<launch>
+    <param name="layout_file" type="string" value="$(find touchosc_bridge)/layouts/Simple.touchosc" />
+	<node pkg="touchosc_bridge" type="touchosc_bridge.py" name="touchosc" output="screen">
+        <param name="osc_name" value="ROS OSC Default" />
+        <param name="port" value="8000"/>
+        <param name="print_fallback" value="True" />
+        <param name="load_default" value="True" />
+        <!-- <param name="layout_path" value="$(find touchosc_bridge)/layouts" /> -->
+        <param name="publish_accel" value="True" />
+        <param name="publish_diag" value="True" />
+        <param name="vibrate" value="True" />
+    </node>
+</launch>
